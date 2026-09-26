@@ -1,13 +1,39 @@
-MIT License
+License
 
-Copyright (c) 2026 Peter Kionga-Kamau
+Copyright (c) 2026 Peter Mugane
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+LICENSE
+
+Free for unrestricted personal use.
+
+Commercial use requires a one-time $35 donation via Venmo to @mugane.
+
+The $35 donation grants a perpetual, non-transferable license to use all
+Tampermonkey scripts in this repository for commercial purposes by a
+single legal owner or entity.
+
+This license does not permit resale, redistribution, sublicensing,
+repackaging, or incorporation of the scripts into another product or
+service.
+
+AI / MACHINE LEARNING RESTRICTION
+
+Use of these scripts, in whole or in part, for the purpose of training,
+fine-tuning, evaluating, benchmarking, developing, or improving any
+artificial intelligence, machine learning, generative AI, large language
+model, or similar system is prohibited.
+
+The scripts may not be incorporated into, copied into, or submitted to
+datasets, corpora, benchmarks, or other collections intended for AI or
+machine-learning purposes.
+
+Automated systems, AI agents, and other AI-powered software may not access,
+execute, reproduce, modify, analyze, or use these scripts for any purpose 
+whatsoever.
+
+GENERAL
+
+All rights not expressly granted by this license are reserved.
 
 The above copyright notice and this permission notice shall be included in all
 copies or substantial portions of the Software.
