@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name        Portainer Template URL History
 // @namespace   portainer-template-url-history
-// @version     1.0.0
+// @version     1.0.1
 // @description Adds a persistent URL history dropdown to Portainer's Template URL field.
 // @match       http://*/*
 // @match       https://*/*
@@ -27,7 +27,7 @@
     }
     function rememberURL(url) { // Process new URL entry:
         url = url.trim();
-        if (!url) { return; }
+        if (!url) return;
         const history = getHistory();
         const filtered = history.filter(item => item !== url); // Remove duplicate
         filtered.unshift(url); // Newest URL goes to the top
@@ -57,7 +57,6 @@
             fontFamily: 'inherit',
             fontSize: '13px'
         });
-//        document.body.appendChild(dropdown);
         const themeContainer = currentInput?.closest('[theme]');
         (themeContainer || document.body).appendChild(dropdown);
     }
@@ -88,9 +87,7 @@
                 overflow: 'hidden',
                 textOverflow: 'ellipsis'
             });
-//            item.addEventListener('mouseenter', () => { item.style.background = 'var(--control-transparent-bgColor-hover)'; });
-//            item.addEventListener('mouseleave', () => { item.style.background = ''; });
-            item.className = 'hover:bg-gray-3 th-highcontrast:bg-black th-highcontrast:hover:bg-white th-dark:hover:bg-gray-iron-9';
+            item.className = 'hover:bg-blue-9';
             item.addEventListener( // Use mousedown rather than click so that the input doesn't lose focus before selection
                 'mousedown',
                 event => {
