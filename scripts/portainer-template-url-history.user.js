@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name        Portainer Template URL History
 // @namespace   portainer-template-url-history
-// @version     1.0.1
+// @version     1.0.2
 // @description Adds a persistent URL history dropdown to Portainer's Template URL field.
 // @match       http://*/*
 // @match       https://*/*
@@ -27,7 +27,7 @@
     }
     function rememberURL(url) { // Process new URL entry:
         url = url.trim();
-        if (!url) return;
+        if (!url) { return; }
         const history = getHistory();
         const filtered = history.filter(item => item !== url); // Remove duplicate
         filtered.unshift(url); // Newest URL goes to the top
@@ -41,13 +41,12 @@
         if (dropdown) return;
         dropdown = document.createElement('div');
         dropdown.id = 'portainer-template-url-history-dropdown';
+        dropdown.className = 'datatable-unhighlighted';
         Object.assign(dropdown.style, {
             position: 'fixed',
             zIndex: '10',
             display: 'none',
-            background: 'var(--theme--background)',
-            color: 'var(--theme--foreground)',
-            border: '1px solid var(--border-color)',
+            borderWidth: '1px',
             borderRadius: '4px',
             borderRadius: '4px',
             boxShadow: '0 4px 12px rgba(0,0,0,.25)',
