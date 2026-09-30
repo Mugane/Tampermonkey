@@ -54,7 +54,8 @@
         root.querySelectorAll(BUTTON).forEach(clean);
     }
 
-    scan(document); // Initial page scan
+    // scan(document); // Initial page scan
+    scan(document.querySelector('div[aria-label="Conversation"]')); // Initial page scan
     const observer = new MutationObserver(mutations => {
         for (const mutation of mutations) {
             for (const node of mutation.addedNodes) {
