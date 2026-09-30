@@ -11,7 +11,7 @@ A collection of custom Tampermonkey userscripts designed to enhance and streamli
 
 *(Note: More scripts may be added to this repository over time. Feel free to check back or contribute!)*
 
-## To-do list
+## 📝 To-do list
 
 Here are the scripts that are in the pipeline (but not yet implemented). If you want to influence priority, start an issue with the relevant request (or your own):
 
