@@ -16,3 +16,4 @@ A collection of custom Tampermonkey userscripts designed to enhance and streamli
 Here are the scripts that are in the pipeline (but not yet implemented). If you want to influence priority, start an issue with the relevant request (or your own):
 
 - Portainer: Smart port selector - when a new container template is loaded, if there are port fields, check that the default value(s) are not already in use and if so, highlight the conflict potential and suggest ports that are NOT in use.
+- Portainer: Browse function for path inputs - select folders from the host machine using the native browser GUI, instead of having to type full paths.
