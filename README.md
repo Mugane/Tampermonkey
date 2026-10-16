@@ -6,7 +6,8 @@ A collection of custom Tampermonkey userscripts designed to enhance and streamli
 
 | Script Name | Description | Source Code | Screenshot |
 | :--- | :--- | :--- | :--- |
-| **ChatGPT Link Cleaner** | Replace ChatGPT citations with plain target=_blank links while preserving all surrounding content and Markdown structure. | [Install / Raw](https://raw.githubusercontent.com/Mugane/tampermonkey/main/scripts/chatgpt-link-cleaner.user.js) | — |
+| **ChatGPT Link Cleaner** | **[DEPRECATED - ChatGPT has removed the annoying link interceptor modal]** Replace ChatGPT citations with plain target=_blank links while preserving all surrounding content and Markdown structure. | [Install / Raw](https://raw.githubusercontent.com/Mugane/tampermonkey/main/scripts/chatgpt-link-cleaner.user.js) | — |
+| **ChatGPT Remove utm_source** | Remove the `utm_source=chatgpt` url parameter in ChatGPT citations and links (keep original urls). | [Install / Raw](https://raw.githubusercontent.com/Mugane/tampermonkey/main/scripts/chatgpt-remove-utm_source.user.js) | — |
 | **Portainer Template URL History** | Adds a persistent URL history dropdown to Portainer's Template URL field. | [Install / Raw](https://raw.githubusercontent.com/Mugane/tampermonkey/main/scripts/portainer-template-url-history.user.js) | [Preview](./screenshots/portainer-template-url-history.png) |
 
 *(Note: More scripts may be added to this repository over time. Feel free to check back or contribute!)*
